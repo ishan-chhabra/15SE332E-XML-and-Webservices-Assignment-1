@@ -44,4 +44,4 @@ So, feel free to fork this repo. If you do, please just give me proper credit by
 
 ## 📜 License
 
-`ishanchhabra-com-v1` is available under the MIT license. See the LICENSE file for more info.
+`15SE332E-XML-and-Webservices-Assignment-1` is available under the MIT license. See the LICENSE file for more info.
