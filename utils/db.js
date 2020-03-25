@@ -7,17 +7,21 @@ function initDb(callback) {
     console.warn(`❌ Database was already initialized!`);
     return callback(null, _db);
   }
-  MongoClient.connect(process.env.DB_URL, (err, client) => {
-    if (err) {
-      return console.log(`❌ ${err}`);
+  MongoClient.connect(
+    process.env.DB_URL,
+    { useNewUrlParser: true, useUnifiedTopology: true },
+    (err, client) => {
+      if (err) {
+        return console.log(`❌ ${err}`);
+      }
+      console.log(
+        `🎉 Database initialized - connected to: ${process.env.DB_URL}`
+      );
+      _client = client;
+      _db = client.db(process.env.DB_NAME);
+      return callback(null, _db);
     }
-    console.log(
-      `🎉 Database initialized - connected to: ${process.env.DB_URL}`
-    );
-    _client = client;
-    _db = client.db(process.env.DB_NAME);
-    return callback(null, _db);
-  });
+  );
 }
 
 function getDb() {
