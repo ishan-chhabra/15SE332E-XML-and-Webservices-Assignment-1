@@ -1,5 +1,6 @@
 <div align="center">
 <img alt="Logo" src="https://github.com/ishan-chhabra/15SE332E-XML-and-Webservices-Assignment-1/blob/master/Screens/srmist_logo.svg?sanitize=true" height="108" />
+<br>
   <img alt="Logo" src="https://github.com/ishan-chhabra/15SE332E-XML-and-Webservices-Assignment-1/blob/master/Screens/ic_logo.svg?sanitize=true" height="56" />
 </div>
 
