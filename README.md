@@ -16,7 +16,7 @@ crafted with <span style="color: #8b0000;">&hearts;</span> by Ishan Chhabra
     <img src="https://img.shields.io/badge/author-Ishan_Chhabra-blue" alt="author Ishan Chhabra"/>
 </p>
 
-![demo](https://github.com/ishan-chhabra/i15SE332E-XML-and-Webservices-Assignment-1/blob/master/Screens/screen.png)
+![demo](https://raw.githubusercontent.com/ishan-chhabra/15SE332E-XML-and-Webservices-Assignment-1/master/Screens/screen.png)
 
 ## 🛠 Install
 
