@@ -1,0 +1,24 @@
+{
+  "name": "15se332e-xml-and-webservices-assignment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishan-chhabra/15SE332E-XML-and-Webservices-Assignment-1.git"
+  },
+  "author": "Ishan Chhabra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ishan-chhabra/15SE332E-XML-and-Webservices-Assignment-1/issues"
+  },
+  "homepage": "https://github.com/ishan-chhabra/15SE332E-XML-and-Webservices-Assignment-1#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.5",
+    "xml2js": "^0.4.23"
+  }
+}
